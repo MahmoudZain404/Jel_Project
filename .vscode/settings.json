@@ -1,0 +1,10 @@
+{
+  "files.associations": {
+    "header.h": "c",
+    "function_declartion.h": "c",
+    "stdlib.h": "c",
+    "function_declartion": "c",
+    "stdio.h": "c"
+  },
+  "C_Cpp.errorSquiggles": "Disabled"
+}
