@@ -4,7 +4,6 @@
 
 student students[QUEUE_SIZE];
 int add_index = 0;
-int retrieve_index = 0;
 
 //                 SDB_IsFull()
 // Description: Check if the database is full
@@ -16,7 +15,7 @@ boolean SDB_IsFull(void)
     int calc = 0;
     if (add_index == QUEUE_SIZE)
     {
-        printf(" Data Base Is Full! ");
+        printf("\nData Base Is Full!\n");
         return TRUE;
     }
     else
@@ -26,7 +25,7 @@ boolean SDB_IsFull(void)
             counter = i;
         }
         calc = (QUEUE_SIZE - 1) - counter;
-        printf("\n%d Pleases Remains\n", calc);
+        printf("\n%d Places Remains\n", calc);
         return FALSE;
     }
 }
@@ -115,7 +114,7 @@ boolean SDB_ReadEntry(int id)
     }
     if (check == FALSE)
     {
-        printf("Student ID Does Not Exist");
+        printf("\nStudent ID Does Not Exist\n");
     }
 }
 
@@ -150,12 +149,12 @@ boolean SDB_IsIdExist(int id)
     {
         if (id == students[i].student_ID)
         {
-            printf("ID Exists");
+            printf("\nID Exists\n");
             return TRUE;
         }
         else
         {
-            printf("ID Doesn't Exist");
+            printf("\nID Doesn't Exist\n");
             return FALSE;
         }
     }
