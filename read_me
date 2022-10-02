@@ -1,1 +1,49 @@
-hello
+						*Coded By Mahmoude Zain El Abden Salah *
+
+    							Simple Data base Project 
+
+    -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --FUNCTIONS-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -
+   						
+					//                 SDB_IsFull()
+    					// Description: Check if the database is full
+   			 	       // Return Value: Return 1 if the the database is full, otherwise 0
+
+    
+
+					//               SDB_GetUsedSize()
+					// Description: Get the number of entries in the database
+					// Return: Return the number of entries
+
+					//                  bool SDB_AddEntry()
+    					// Description: Add new entry to the database
+    					// Return: Return 1 if the new entry is successfully added; otherwise 0
+
+    
+
+    					//          void SDB_DeleteEntry()
+    					// Description: Delete the entry with the given ID
+    					// Input Parameter - id: ID of the entry to be deleted
+
+   
+
+    					//              bool SDB_ReadEntry()
+    					// Description: Read an entry matching the provided ID
+    					// Return Value: Return 1 if the entry exist, otherwise 0
+    					// Input Parameter - id: Student ID
+    					// Output Parameter - year: Pointer to the student year
+    					// Output Parameter - subjects: Pointer to the subjects
+    					// Output Parameter - grades: Pointer to the grades
+
+    
+
+    					//              void SDB_GetIdList()
+    					// Description: Get the list of IDs of the students
+    					// Output Parameter - count: Pointer to the number of entries currently exists in the
+    					// Output Parameter - list: Pointer to the list of ID
+
+ 
+
+  					  //               bool SDB_IsIdExist()
+  					 // Description: Checks if the the provided student ID exists
+   					 // Return Value: Return 1 if ID exists in the database, otherwise 0
+
